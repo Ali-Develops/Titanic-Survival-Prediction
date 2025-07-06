@@ -112,6 +112,13 @@ Load `train.csv`, `test.csv`, and `gender_submission.csv` using `pandas`.
   - `matplotlib`  
   - `seaborn`  
   - `scikit-learn`
+  
+- If you're running this locally (not in Google Colab), install the dependencies using:
 
-> 💡 Best run on **Google Colab** — no installation required.
+''' bash
+pip install -r requirements.txt
+
+💡 On Google Colab, these packages are pre-installed — no need to run this unless customizing the environment.
+
+
 
