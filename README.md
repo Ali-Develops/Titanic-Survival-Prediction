@@ -27,14 +27,15 @@ Open the notebook in Google Colab and follow these steps:
 
 ### 🔹 Step 1: Upload Files
 Upload the 3 CSV files using:
-```python
+
 from google.colab import files
 uploaded = files.upload()
+
 ## 🔹 Step 2: Import Libraries
 
 Essential Python libraries for data manipulation, visualization, and modeling:
 
-```python
+
 import numpy as np  
 import pandas as pd  
 import matplotlib.pyplot as plt  
@@ -42,11 +43,7 @@ import seaborn as sns
 import warnings  
 warnings.simplefilter(action="ignore", category=RuntimeWarning)
 
-# 🛳️ Titanic Survival Prediction
 
-A short and practical notebook to predict survival on the Titanic using logistic regression in Python.
-
----
 
 ## 🔹 Step 3: Load Dataset
 
